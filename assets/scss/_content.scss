@@ -36,7 +36,8 @@
     }
 
     > table {
-        @extend .table-striped;
+        @extend .table;
+        // @extend .table-striped;
 
         @extend .table-responsive;
 
