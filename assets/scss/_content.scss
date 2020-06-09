@@ -42,6 +42,10 @@
         @extend .table-responsive;
 
         @extend .table;
+
+        thead tr th {
+            background-color: #ddd;
+        }
     }
 
     > blockquote {
