@@ -43,12 +43,13 @@
 
         @extend .table;
 
-        border-bottom: 1px solid #dee2e6;
-        margin-bottom: 2rem;
-
         thead tr th {
             background-color: #ddd;
         }
+    }
+    > table {
+        border-bottom: 1px solid #dee2e6;
+        margin-bottom: 2rem;
     }
 
     > blockquote {
